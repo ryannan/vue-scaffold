@@ -1,0 +1,28 @@
+{
+    "extends": ["vue"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "expect": true,
+        "sinon": true
+    },
+    "rules": {
+        "linebreak-style": 0,
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "quote-props": ["error", "as-needed", { "keywords": true, "unnecessary": true, "numbers": false }],
+        "consistent-this": ["error", "that"],
+        "func-names": 0,
+        "no-underscore-dangle": ["error", { "allow": ["_id", "__v"] }],
+        "no-restricted-syntax": 0,
+        "guard-for-in": 1,
+        "vars-on-top": 1,
+        "no-tabs": 0,
+        "class-methods-use-this": 0,
+        "no-plusplus": 0,
+        "semi": [2, "always", { "omitLastInOneLineBlock": true }],
+        "no-unreachable": 2
+    }
+}
